@@ -1,19 +1,19 @@
 nav:
-  Home: /home/
+  Home: /
   About: /about/
   Writing: /archives/
-  Projects: http://github.com/tzvetkov75
+  Projects: https://github.com/funsoul
 
-projects_url: http://github.com/tzvetkov75
+projects_url: https://github.com/funsoul
 
 customize:
     gravatar:
-        email: 
+        email: cyanming2016@gmail.com
     logo:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.png
+        url: /images/avater.jpg
         gravatar: false
     favicon: 
       # eg. generate with http://realfavicongenerator.net/
@@ -27,19 +27,16 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: https://github.com/tzvetkov75/solar-theme-hexo
-        twitter: /
-        facebook: /
-        linkedin: /
-    post_count: 5
-    highlight: lightcode
+        github: https://github.com/funsoul
+    post_count: 10
+    highlight: tomorrow-night
 
 # keept it like this to add the root path (probably a bug)
 root: ..
 
 solar:
     # factor between 0 (fast), 1(normal), 2(very slow)  
-    speed: 1
+    speed: 2
     sun_image: /images/sun.png
     earth_image: /images/earth.png
     jupiter_image: /images/jupiter.png
@@ -54,7 +51,7 @@ rss: false
 # Plugins
 plugins:
     disqus_shortname: # Disqus Comments Shortname
-    google_analytics: # enter the tracking ID for your Google Analytics
+    google_analytics: UA-118289850-1
 
 # Miscellaneous
 miscellaneous:
